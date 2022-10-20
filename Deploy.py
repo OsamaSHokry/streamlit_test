@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 my_var = " my variable says Hello"
-data = pd.read_csv("owid-covid-data.csv")
+data_0 = pd.read_csv("owid-covid-data.csv")
 
 def main():
     st.title("Streamlit Muli-Page test")
