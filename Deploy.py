@@ -5,11 +5,13 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 my_var = " my variable says Hello"
+data = pd.read_csv("owid-covid-data.csv")
 
 def main():
     st.title("Streamlit Muli-Page test")
     st.subheader("Main Page")
     st.write(my_var)
+    st.write(data.head())
 
     choice = st.sidebar.selectbox("SubMenu",["Pandas","Tenserflow"])
     if choice == "Pandas":
