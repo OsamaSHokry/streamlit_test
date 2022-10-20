@@ -4,6 +4,6 @@ from Deploy import data
 
 st.subheader("Home Page")
 st.write(my_var)
-st.write(data.head())
+# st.write(data.head())
 
 test_var = 'Test Var'
