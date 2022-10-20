@@ -7,7 +7,7 @@ import plotly.express as px
 my_var = " my variable says Hello"
 
 def main():
-    st.title("Streamlit Muli-Page")
+    st.title("Streamlit Muli-Page test")
     st.subheader("Main Page")
     st.write(my_var)
 
