@@ -1,6 +1,6 @@
 import streamlit as st
 from Deploy import my_var
-from Deplou import data
+from Deploy import data
 
 
 st.subheader("Home Page")
