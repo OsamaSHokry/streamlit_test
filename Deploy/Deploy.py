@@ -9,10 +9,6 @@ def main():
     st.title("Streamlit Muli-Page")
     st.subheader("Main Page")
     st.write(my_var)
-
-    choice = st.sidebar.selectbox("SubMenu",["Pandas","Tenserflow"])
-    if choice == "Pandas":
-        st.subheader("Pandas")
-
+    
 if __name__ == '__main__':
     main()
