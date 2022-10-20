@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
-
 sns.set()
 import plotly.express as px
 my_var = " my variable says Hello"
